@@ -1,0 +1,18 @@
+What type of attack was this?
+In my opinion it was malware attack
+
+
+How was the vulnerability discovered?
+The discovery of the leak was made by Bob Diachenko, a security consultant, in collaboration with Comparitech, a technology research firm. According to security researchers, a configuration error made it easy to access 10 databases belonging to the company
+
+
+
+How were the attackers able to exploit the vulnerability?
+According to researchers at Comparitech, Broadvoice left an Elasticsearch database cluster containing such information open to the internet, accessible to anyone, with no authentication required. The cache of data included records with personal details of Broadvoice clients’ customers, they noted.
+The leak is particularly concerning for two reasons. Firstly, the exposed call transcripts include voicemails left with medical outlets and financial services firms, representing a significant privacy breach. Secondly, the leaking of personally identifiable information could be put to use by cyberattackers in follow-up phishing campaigns.
+
+
+
+
+Were there security measures that could have been taken in order to prevent this attack?
+Yes, they definitely could prevent this attack If they would not leave database cluster containing such information open to the internet, assessible to anyone with no authentication required. 
